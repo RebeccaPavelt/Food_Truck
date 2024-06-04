@@ -1,0 +1,11 @@
+.header {
+  background-color: var(--header-bg);
+  color: var(--header-text);
+  padding: 10px;
+  width: 400px;
+}
+
+.header__text {
+  display: inline;
+  padding: 10px;
+}

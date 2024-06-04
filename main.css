@@ -1,0 +1,12 @@
+.main {
+  position: relative;
+  width: 50%;
+}
+
+.main__menu {
+  border: 2px solid none;
+  display: inline;
+  padding: 10px;
+  background-color: var(--main-title-bg);
+  color: var(--main-text);
+}

@@ -1,0 +1,28 @@
+.cards {
+  list-style: none;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+  position: absolute;
+  left: -40px;
+}
+
+.cards__items {
+  border: 2px solid none;
+  border-radius: 10px;
+  background-color: var(--card-bg);
+  color: var(--card-text);
+  width: 350px;
+  height: 200px;
+  padding: 15px;
+}
+
+.cards__header {
+  margin: 0;
+}
+
+/* display: flex;
+flex-wrap: wrap;
+flex-direction: row;
+justify-content: flex-start;
+max-width: 300px; */
